@@ -83,10 +83,10 @@ def over?(board)
   end
 end
 
-def winner(board)
-  if  board[won?(board).first]
-  end
-end
+# def winner(board)
+#   if  board[won?(board).first]
+#   end
+# end
 
 
 
