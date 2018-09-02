@@ -88,10 +88,6 @@ def winner(board)
   if !won?(board) == false
     false
   end
-    
-    
-   
-    
 end
   # if won?(board) 
   #   true
