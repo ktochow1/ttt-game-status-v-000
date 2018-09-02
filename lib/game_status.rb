@@ -87,6 +87,7 @@ def winner(board)
   board[won?(board).first]
   if !won?(board) == false
     false
+  end
     
     
    
