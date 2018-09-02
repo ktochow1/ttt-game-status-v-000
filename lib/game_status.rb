@@ -92,7 +92,8 @@ end
 
 def winner(board)
   board[won?(board).first]
-  if !won?(board) == board[won?(board).first]
+  if !won?(board) == false
+    board[won?(board).first]
   end
 end
 
