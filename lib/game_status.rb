@@ -87,16 +87,14 @@ def winner(board)
   if  board[won?(board).first]
   end
 end
-  # if won?(board) 
-  #   true
-  #   if WIN_COMBINATIONS(board)
-  # else full?(board) 
-  #   nil
-  #   end
-  # end
 
 
 
+def winner(board)
+  board[won?(board).first]
+  if !won?(board) == board[won?(board).first]
+  end
+end
 
 # You're 99% there, but inside of having false in your if block you want board[won?(board).first] there
   
