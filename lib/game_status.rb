@@ -84,9 +84,7 @@ def over?(board)
 end
 
 def winner(board)
-  board[won?(board).first]
-  if !won?(board) == false
-    false
+  if  board[won?(board).first]
   end
 end
   # if won?(board) 
@@ -100,6 +98,6 @@ end
 
 
 
-  
+# You're 99% there, but inside of having false in your if block you want board[won?(board).first] there
   
   
